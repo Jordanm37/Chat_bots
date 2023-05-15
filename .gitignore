@@ -1,0 +1,39 @@
+
+Aristotle_AI/.env
+Aristotle_AI/.vscode/settings.json
+Aristotle_AI/__pycache__/chatbot.cpython-311.pyc
+Aristotle_AI/agent_test.ipynb
+Aristotle_AI/custom_agent_test.ipynb
+Aristotle_AI/example.log
+Aristotle_AI/main.ipynb
+Aristotle_AI/main_agent.ipynb
+Aristotle_AI/Math_chatbot/
+Aristotle_AI/mathpix_test/test.ipynb
+Aristotle_AI/mathpix_test/test.png
+Aristotle_AI/mathpix_test/test.txt
+Aristotle_AI/mathpix_test/test.zip
+Aristotle_AI/mathpix_test/test2.png
+Aristotle_AI/plot_ex/3D plot.jpg
+Aristotle_AI/plot_ex/3D plot_0.jpg
+Aristotle_AI/plot_ex/3d_plot.jpg
+Aristotle_AI/plot_ex/Inequality plot_0.jpg
+Aristotle_AI/plot_ex/plot plot x^2 + 2x + 1.jpg
+Aristotle_AI/plot_ex/plot plot x^2.jpg
+Aristotle_AI/plot_ex/plot sin(x)_Plots_0.jpg
+Aristotle_AI/plot_ex/plot x^2 - 3y^2 - z^2 = 1_Surface plot_0.jpg
+Aristotle_AI/plot_ex/plot x^2 e^x_Plots_0.jpg
+Aristotle_AI/plot_ex/plot x^2 e^x_Plots_1.jpg
+Aristotle_AI/plot_ex/plot x^2_Plot_0.jpg
+Aristotle_AI/plot_ex/plot.jpg
+Aristotle_AI/plot_ex/plot_0.jpg
+Aristotle_AI/plot_ex/plot_1.jpg
+Aristotle_AI/plot_ex/Plots.jpg
+Aristotle_AI/plot_ex/Plots_0.jpg
+Aristotle_AI/plot_ex/Plots_1.jpg
+Aristotle_AI/plot_ex/Surface plot_0.jpg
+Aristotle_AI/streamlit_test/.env
+Aristotle_AI/streamlit_test/chatbot.py
+Aristotle_AI/streamlit_test/sreamlit_test.ipynb
+Aristotle_AI/streamlit_test/steamlit_test.py
+Aristotle_AI/streamlit_test/steamlit_test_2.py
+Aristotle_AI/streamlit_test/streamlit_test_3.py
