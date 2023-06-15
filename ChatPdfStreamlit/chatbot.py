@@ -18,15 +18,15 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 ### For testing ###
 # class ChatBot():
     
-#     def chat_bot_response(self, user_content):
-#         response = openai.ChatCompletion.create(
-#             model="gpt-4",
-#             messages=[
-#                 {"role": "system", "content": "You are a chatbot. Hold a conversation. Respond using markdown."},
-#                 {"role": "user", "content": user_content},
-#             ],
-#         )
-#         return response["choices"][0]["message"]["content"]
+    # def chat_bot_response(self, user_content):
+    #     response = openai.ChatCompletion.create(
+    #         model="gpt-4",
+    #         messages=[
+    #             {"role": "system", "content": "You are a chatbot. Hold a conversation. Respond using markdown."},
+    #             {"role": "user", "content": user_content},
+    #         ],
+    #     )
+    #     return response["choices"][0]["message"]["content"]
 
 
 class ChatBot:

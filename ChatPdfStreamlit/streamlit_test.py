@@ -250,3 +250,16 @@ with st.form(key="my_form", clear_on_submit=True):
 # with st.form(key="my_form", clear_on_submit=True):
 #TODO re do and use roby chat messages since stremalit chat allows for avartars
 # https://github.com/yvann-hub/Robby-chatbot/blob/30cc180c1fd29bd12cae2be1e7b6dae25ca034c0/src/modules/history.py
+# TODO make into generalised repo for chatting and add pages 
+
+"""As an AI Assistant with expertise in local town planning regulation, I am here to assist you with any queries you may have. Please feel free to ask me any questions related to the following topics:
+
+1. Zoning regulations
+2. Building codes and permits
+3. Land use regulations
+4. Environmental regulations
+5. Planning and development processes
+
+I am well-versed in the legal framework and regulations governing these areas, and can provide you with accurate and personalized guidance based on your specific needs and circumstances.
+
+If you have any questions related to these topics, please don't hesitate to ask. I am here to help you navigate the complex world of local town planning regulation and ensure that you are in compliance with all applicable laws and regulations."""
