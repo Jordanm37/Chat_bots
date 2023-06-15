@@ -32,7 +32,13 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 class ChatBot:
     def __init__(self):
         # load vector db from disk
-        self.persist_directory = './db'
+        # self.persist_directory = './db'
+        # Get the absolute path to the directory of the current file
+        current_file_directory = os.path.dirname(os.path.abspath(__file__))
+
+        # Construct a path to the database
+        self.persist_directory = os.path.join(current_file_directory, 'db')
+
         self.embedding = OpenAIEmbeddings()
 
         self.vectordb = Chroma(persist_directory=self.persist_directory, 
