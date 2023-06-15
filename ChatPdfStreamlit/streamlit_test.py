@@ -18,6 +18,18 @@ layout = Layout()
 # Display the header of the app
 layout.show_header()
 
+"""As an AI Assistant with expertise in local town planning regulation, I am here to assist you with any queries you may have. Please feel free to ask me any questions related to the following topics:
+
+1. Zoning regulations
+2. Building codes and permits
+3. Land use regulations
+4. Environmental regulations
+5. Planning and development processes
+
+I am well-versed in the legal framework and regulations governing these areas, and can provide you with accurate and personalized guidance based on your specific needs and circumstances.
+
+If you have any questions related to these topics, please don't hesitate to ask. I am here to help you navigate the complex world of local town planning regulation and ensure that you are in compliance with all applicable laws and regulations."""
+
 # # Initialize the chat history if not already done
 # st.session_state["history"] = st.session_state.get("history", [])
 
