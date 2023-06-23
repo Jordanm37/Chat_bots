@@ -231,17 +231,17 @@ def generate_messages(container):
                 )
                 message(st.session_state["assistant"][i], key=str(i), avatar_style="thumbs")
 
-def extract_answer_and_sources(response):
-    answer = response['answer']
-    sources = [doc for doc in response['source_documents']]
+def extract_sources(response):
+    # answer = response['answer']
+    # sources = [doc for doc in response['source_documents']]
     # sources = [doc.metadata['page'] for doc in response['source_documents']]
-    return answer, sources
+    sources = [doc.metadata['page'] for doc in response]
+    return sources
 
 
 def chat_bot_response(chatbot, user_input, chat_history):
-    response = chatbot.chat_bot_response(user_input, chat_history)
-    print(response)
-    answer, sources = extract_answer_and_sources(response)
+    answer, source_array = chatbot.chat_bot_response(user_input, chat_history)
+    sources = extract_sources(source_array)
     return answer, sources
 
 # Container for the chat history
@@ -253,10 +253,11 @@ with st.form(key="my_form", clear_on_submit=True):
 
     if is_ready:
         # Update the chat history and display the chat messages
-        append_message("user", user_input)
-        output, sources = chat_bot_response(chatbot, user_input, st.session_state["history"])
-        st.session_state["history"].append((user_input, output))
-        append_message("assistant", output)
+        with st.spinner("Thinking..."):
+            append_message("user", user_input)
+            output, sources = chat_bot_response(chatbot, user_input, st.session_state["history"])
+            st.session_state["history"].append((user_input, output))
+            append_message("assistant", output)
 
         # Generate the chat messages with avatars
         generate_messages(chat_container)
