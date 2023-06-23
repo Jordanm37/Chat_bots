@@ -17,7 +17,7 @@ layout = Layout()
 
 # Display the header of the app
 layout.show_header()
-st.markdown("## Welcome to the AI Assistant for Local Town Planning Regulation")
+st.markdown("## Welcome to the AI Assistant for Nillumbik Town Planning Regulation")
 st.markdown("### Please ask me any questions related to the following topics:")
 st.markdown("""
 1. Zoning regulations
