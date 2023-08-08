@@ -39,3 +39,7 @@ Aristotle_AI/streamlit_test/steamlit_test_2.py
 Aristotle_AI/streamlit_test/streamlit_test_3.py
 *.zip
 *.mp3
+Reece/.env
+Reece/.env
+resume_cover_letter_bot/.env
+resume_cover_letter_bot/webapp/app/.env
