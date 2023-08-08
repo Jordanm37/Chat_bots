@@ -2784,3 +2784,750 @@ INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not
 INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:app.main:Processing job URL: https://www.seek.com.au/job/68922342?type=standout#sol=3947ab745533e8751f51dfd6055c802d86c49572
 ERROR:app.main:Failed to generate cover letter: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+ERROR:app.main:Failed to generate cover letter: can only concatenate str (not "NoneType") to str
+INFO:app.main:Processing job URL: https://www.seek.com.au/job/68922342?type=standout#sol=3947ab745533e8751f51dfd6055c802d86c49572
+ERROR:app.main:Failed to generate cover letter: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>', or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. See https://platform.openai.com/account/api-keys for details.
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: None
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: None
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: None
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: None
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: None
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: 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
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: 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
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: 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
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: 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
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Started
+INFO:root:OpenAI API key: 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
+INFO:numexpr.utils:Note: NumExpr detected 48 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:root:Resume file: temp_resume.docx
+INFO:root:Resume: Eleni Halkias
+
+ 
+
+ 
+
+ 
+
+ Melbourne VIC \u2666 0421 042 055 \u2666 ehalkias9@gmail.com  
+
+
+
+		 	   Professional Summary   	
+
+A seasoned professional with over 5 years of progressive experience in disability support work, financial services, and support coordination. 
+
+Proven skills in administration, relationship management, communication, project coordination, and proficient in handling diverse administrative roles and client relationships. 
+
+Demonstrated adaptability under high-pressure conditions with a proactive approach, and proficiency in autonomous, self-directed roles.
+
+			   Skills   	
+
+Interpersonal Skills
+
+Communication Skills
+
+Advocacy Skills
+
+Stakeholder Negotiation
+
+Person-Centred Focus
+
+Problem-Solving
+
+Organizational Skills
+
+Planning Skills
+
+Rapport Building
+
+Coordinating Services
+
+Conflict Resolution
+
+Attention to Detail
+
+Interpersonal Skills
+
+Communication Skills
+
+Advocacy Skills
+
+Stakeholder Negotiation
+
+Person-Centered Focus
+
+Problem-Solving
+
+Organizational Skills
+
+Planning Skills
+
+Rapport Building
+
+Coordinating Services
+
+Conflict Resolution
+
+Attention to Detail
+
+		 	   Work History   	
+
+Support Coordinator, 01/2023 - Current 
+
+Personalised Support Systems – Melbourne
+
+• Implemented and activated NDIS plans for 15+ participants, aiding them in understanding and applying their individual schemes
+
+• Coordinated 20+ service providers, ensuring tailored supports for NDIS participants and improving their care
+
+• Used Microsoft Excel to obtain competitive quotes for NDIS services, securing cost-effective solutions for participants and saving up to 15% on expenses.
+
+• Orchestrated 20+ service agreements using Trello for tracking and management, fostering a clear understanding of responsibilities for NDIS participants.
+
+• Assisted NDIS participants in achieving 90% of their stated goals in the first year, through comprehensive support service.
+
+• Displayed extensive knowledge of NDIS policies, procedures, and legislation, leading to 100% compliance rate.
+
+• Initiated collaborations with 10+ families, carers, and service providers via Zoom, facilitating a team-oriented approach to participant support.
+
+• Maintained high accuracy in NDIS documentation and reporting requirements using Astalty for record-keeping.
+
+• Successfully worked with 5+ participants with psychosocial disabilities, refining specialised support techniques and improving their quality of life
+
+Disability support worker, 03/2022 - 12/2022 
+
+Call-A-Nurse 
+
+• Delivered high-quality, personalized care to NDIS participants with diverse needs, with a specific focus on catheter care and diabetes management.
+
+• Conducted regular in-home visits, providing supportive services while maintaining detailed client records through Google Drive.
+
+• Demonstrated resilience under pressure to ensure excellent service and client satisfaction.
+
+• Handled administrative duties related to client file maintenance and paperwork
+
+Disability support worker, 06/2021 - 12/2022 
+
+Private 
+
+• Developed and implemented person-centred support plans for clients, assisting with daily activities and community access using tools like Microsoft Excel and Google Sheets for efficient tracking.
+
+• Built strong rapport and trust with clients, empowering them to live independently.
+
+• Maintained comprehensive client notes and records using Microsoft Word and Google Docs, tracking progress and managing caseloads.
+
+• Effectively managed multiple patients with diverse needs, ensuring optimal client care.
+
+Disability support worker, 06/2019 - 09/2022 
+
+Sendayo Disability Support Services 
+
+Provided support to over 40 diverse clients, gaining valuable experience in managing a range of psycho-social and physical disabilities.
+
+Effectively liaised with the NDIS and support coordinators, enhancing health outcomes for participants.
+
+Supported participants in achieving individual goals and independence through assistance with daily living activities, such as personal hygiene, manual handling, meal prepping, and community access.
+
+Assisted participants with activities of daily living such as, personal hygiene care, manual handling, meal prepping, and community access/socialising
+
+Maintains a high-level of proficiency in first responder skills such as First Aid and CPR to administer to individuals in immediate distress or danger
+
+Client Liaison, 01/2017 - 01/2022 
+
+Natcorp Financial Services 
+
+Built strong rapport with clients in the financial services sector, delivering excellent service and managing administrative duties.
+
+Handled client invoicing and liaison, implementing tracking systems to analyse customer feedback and improve satisfaction.
+
+Demonstrated strong IT skills, utilizing tools such as Microsoft Excel, Google Sheets, and Microsoft Word to enhance operational efficiency.
+
+		 	   Education   	
+
+Bachelor of Arts: 2023 
+
+Deakin University - Melbourne 
+
+		 	   Certifications   	
+
+Current CPR Current First Aid Current Victorian Drivers Licence
+INFO:app.main:Processing job URL: https://www.seek.com.au/job/68922342?type=standout#sol=3947ab745533e8751f51dfd6055c802d86c49572
+INFO:root:Job description: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administrative Officer Job in Fitzroy, Melbourne VIC - SEEK
+
+Administrative OfficerSkip to contentJobsCoursesBusinesses for saleVolunteeringSEEKJob searchProfileCareer adviceCompany reviewsSign inEmployer siteMenuJob searchProfileCareer adviceCompany reviewsSign inAustraliaAustraliaHong KongIndonesiaMalaysiaNew ZealandPhilippinesSingaporeThailandEmployer siteAll SEEK productsJobsCoursesBusinesses for saleVolunteeringJob searchProfileCareer adviceCompany reviewsEmailFacebookTwitterLinkedInAdministrative OfficerAustralian Catholic University Limited3.7·67 reviewsFitzroy, Melbourne VICAdministrative Assistants (Administration & Office Support)Other (Education & Training)Full time$78,048 – $84,489 plus 17% superPosted 13d agoMore jobs from this companyApply\u2060SaveKey Administrative Support role in Learning and Leadership Enterprise (LLE)17% super, salary packaging, Staff Rewards Program and generous leave provisionsFixed term full time opportunity until 22 Dec 2023.About ACU:Australian Catholic University (ACU) is an inclusive community which welcomes students and staff of all beliefs. ACU has over 2,500 staff supporting more than 34,000 students across eight campuses - Ballarat, Brisbane, Canberra, Melbourne, North Sydney, Strathfield, Blacktown and Rome.ACU aspires to be a home for our staff, offer the care of a family and develop an academic and professional community. Whatever your faith or culture, and whether you are academic or professional staff, there are many opportunities both for learning and contributing at ACU.As valued members of our community, all staff members are expected to have an understanding of ACU's mission and values and to demonstrate an active contribution to them.About the role:As the Administrative Officer (Projects), you will be responsible for the effective and efficient day-to-day operations of a range of Learning and Leadership Enterprise (LLE) projects, providing support for our major microcredentials initiatives, commercial and government tenders, national and international outreach and engagement, and partner development.Working closely with the Partnerships Operations Manager, you will provide administrative support for the implementation of projects, delivery of projects and initiatives, and support the processes and frameworks required to deliver on project and organisational objectives. Excellent communication and organisation skills, a capacity to work in a fast-paced environment, and the ability to negotiate with a variety of stakeholders will be key to your success in this role. More specifically the role entails:Support the development and submission of tenders and proposals.Provide event coordination support for a range of Learning and Leadership Enterprise events and national and international outreach and learning programs.Stakeholder engagement with a variety of internal and external stakeholders.Support for strategic initiatives.Contact:General enquiries can be sent to [email protected]What we offer:The University pursues an excellence agenda and offers an environment where staff are welcomed and safe, and valued through development, participation and involvement.Total remuneration valued to $92,363 - $99,985 total rem (pro rata) pa, including salary component $78,048 - $84,489 (pro rata) pa (HEW 5), employer contribution to superannuation and annual leave loading.17% employer superannuation contributions to eligible continuing and fixed-term staff.Annual leave loading of an equivalent to 17.5% of four weeks' salary pro rata payable, dependent on your commencement date.As an ACU staff member, you will have access to generous benefits which include but not limited to: Staff Rewards; a variety of leave provisions and salary packaging. Find out more information about the benefits or working at ACU here.How to Apply:Step 1: Review the Position Description and become familiar with Our Mission and the Application processStep 2: Click the 'View Position Description and Apply' button, and populate your candidate application details, including your:resume (maximum 5 pages).responses to the Selection Criteria and Core Competencies in a cover letter (maximum 2 pages) or in the online Declaration and Criteria application page.brief online responses to any pre-screening employment questions.Candidates must hold Australian work rights to apply for this position. For permanent/ continuing roles, applicants must have permanent work rights. For further information visit Immigration and Citizenship(homeaffairs.gov.au)Acting in truth, ACU is dedicated to the dignity of the human person through equitable and respectful opportunities for everyone. ACU can offer support for candidates that may require adjustments through the recruitment process.Your Privacy of personal information is maintained in accordance with ACU policy. For more details visit: www.acu.edu.au/careersAdvertised: 26-JUL-2023Applications close: 09-AUG-2023 at 11:59pm AUS Eastern Standard TimeACU does not accept candidate applications submitted by external recruitment agencies through the ACU careers website.Report this job advertBe carefulDon’t provide your bank or credit card details when applying for jobs.Learn how to protect yourselfReport this job ad\u2060Your email addressReason for reporting jobPlease selectUnable to applyFraudulentDiscriminationMisleadingOtherAdditional commentsReport jobCancel
+
+
+
+
+Salary lookup
+
+What can I earn as an Administration Officer?
+
+        Find out the average salary for an Administration Officer across
+        Australia
+      
+
+
+
+
+See more detailed salary information
+
+
+
+
+
+
+
+Apply\u2060SaveJob seekersJob searchProfileRecommended jobsSaved searchesSaved jobsApplied jobsCareer adviceExplore careersExplore salariesCompany reviewsDownload appsAndroidiOSSEEK sitesEmployer siteSEEK NZCoursesBusinesses for saleVolunteeringEmployersRegister for freePost a job adProducts & pricesCustomer serviceHiring adviceMarket insightsRecruitment software partnersAbout SEEKAbout SEEKNewsroomInvestorsWork for SEEKInternational partnersBdjobs (Bangladesh)BrighterMonday (Kenya)Catho (Brazil)Jobberman (Nigeria)JobsDB (SE Asia)JobStreet (SE Asia)Jora (Australia)Jora (Worldwide)OCC Mundial (Mexico)Workana (Latin America)Zhaopin (China)Partner servicesCertsyGradConnectionJora LocalSidekickerGO1FutureLearnEmployment HeroJobAdderContactHelp centreContact usProduct & tech blogSEEK videosSocialFacebookInstagramTwitterYouTubeAustraliaAustraliaHong KongIndonesiaMalaysiaNew ZealandPhilippinesSingaporeThailandPrivacy policyTerms & conditionsProtect yourself online© SEEK. All rights reserved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:app.main:Prompt tokens: 1833, Completion tokens: 252, Cost: 0.07010999999999999
+INFO:app.main:Key words: **Job Title:** Administrative Officer
+
+**Key Responsibilities:**
+- Responsible for the effective and efficient day-to-day operations of a range of Learning and Leadership Enterprise (LLE) projects.
+- Providing support for major initiatives, commercial and government tenders, national and international outreach and engagement, and partner development.
+- Working closely with the Partnerships Operations Manager.
+- Provide administrative support for the implementation of projects, delivery of projects and initiatives.
+- Support the development and submission of tenders and proposals.
+- Provide event coordination support for a range of Learning and Leadership Enterprise events and national and international outreach and learning programs.
+- Support the processes and frameworks required to deliver on project and organisational objectives. 
+- Stakeholder engagement with a variety of internal and external stakeholders.
+- Support for strategic initiatives.
+
+**Essential Skills & Competencies:**
+- Excellent communication and organisation skills.
+- Capacity to work in a fast-paced environment.
+- Ability to negotiate with a variety of stakeholders.
+
+**Keywords:**
+- Administrative Officer
+- Learning and Leadership Enterprise (LLE) projects
+- Commercial and government tenders
+- National and international outreach and engagement
+- Partner development
+- Partnerships Operations Manager
+- Event coordination support
+- Stakeholder engagement
+- Strategic initiatives
+
+INFO:app.main:Prompt tokens: 1337, Completion tokens: 93, Cost: 0.04569
+INFO:app.main:Filtered key words: - Administrative Officer
+- Day-to-day operations
+- Support for major initiatives
+- Working closely with management
+- Provide administrative support for the implementation of projects
+- Delivery of projects and initiatives
+- Event coordination support
+- Support the processes and frameworks required to deliver on project and organisational objectives
+- Stakeholder engagement
+- Support for strategic initiatives
+- Excellent communication and organisation skills
+- Fast-paced environment
+- Ability to negotiate with a variety of stakeholders.
+INFO:app.main:Prompt tokens: 1172, Completion tokens: 632, Cost: 0.07307999999999999
+INFO:app.main:Relevant experience: ## Professional Summary
+
+A seasoned professional with over 5 years of progressive experience in disability support work, financial services, and support coordination. Proven skills in administration, relationship management, communication, project coordination, and proficient in handling diverse administrative roles and client relationships. Demonstrated adaptability under high-pressure conditions with a proactive approach, and proficiency in autonomous, self-directed roles.
+
+## Skills
+
+- Interpersonal Skills
+- Communication Skills
+- Stakeholder Negotiation
+- Problem-Solving
+- Organizational Skills
+- Planning Skills
+- Coordinating Services
+- Attention to Detail
+
+## Work History
+
+**Support Coordinator,** Personalised Support Systems – Melbourne (01/2023 - Current)
+
+- Implemented and activated NDIS plans for 15+ participants, aiding them in understanding and applying their individual schemes.
+- Coordinated 20+ service providers, ensuring tailored supports for NDIS participants and improving their care.
+- Used Microsoft Excel to obtain competitive quotes for NDIS services, securing cost-effective solutions for participants and saving up to 15% on expenses.
+- Orchestrated 20+ service agreements using Trello for tracking and management, fostering a clear understanding of responsibilities for NDIS participants.
+- Assisted NDIS participants in achieving 90% of their stated goals in the first year, through comprehensive support service.
+- Initiated collaborations with 10+ families, carers, and service providers via Zoom, facilitating a team-oriented approach to participant support.
+- Maintained high accuracy in NDIS documentation and reporting requirements using Astalty for record-keeping.
+
+**Disability Support Worker,** Call-A-Nurse (03/2022 - 12/2022)
+
+- Conducted regular home visits, providing supportive services while maintaining detailed client records through Google Drive.
+- Handled administrative duties related to client file maintenance and paperwork.
+
+**Disability Support Worker,** Private (06/2021 - 12/2022)
+
+- Developed and implemented person-centred support plans for clients, assisting with daily activities and community access using tools like Microsoft Excel and Google Sheets for efficient tracking.
+- Maintained comprehensive client notes and records using Microsoft Word and Google Docs, tracking progress and managing caseloads.
+
+**Disability Support Worker,** Sendayo Disability Support Services (06/2019 - 09/2022)
+
+- Effectively liaised with the NDIS and support coordinators, enhancing health outcomes for participants.
+- Supported participants in achieving individual goals and independence through assistance with daily living activities, such as personal hygiene, manual handling, meal prepping, and community access.
+
+**Client Liaison,** Natcorp Financial Services (01/2017 - 01/2022)
+
+- Built strong rapport with clients in the financial services sector, delivering excellent service and managing administrative duties. 
+- Handled client invoicing and liaison, implementing tracking systems to analyse customer feedback and improve satisfaction.
+- Demonstrated strong IT skills, utilizing tools such as Microsoft Excel, Google Sheets, and Microsoft Word to enhance operational efficiency.
+
+## Education
+
+Bachelor of Arts: 2023 Deakin University - Melbourne 
+
+## Certifications
+
+Current CPR Current First Aid Current Victorian Drivers Licence
+
+INFO:app.main:Prompt tokens: 2435, Completion tokens: 345, Cost: 0.09374999999999999
+INFO:app.main:Cover letter: Dear Hiring Manager,
+
+I am writing to express my interest in the Administrative Officer position at Australian Catholic University as advertised. I am a seasoned professional with over 5 years of experience in disability support work, financial services, and support coordination. I believe that my unique skills and experiences make me a strong candidate for this position.
+
+In my current role as a Support Coordinator at Personalised Support Systems, I've successfully implemented and activated NDIS plans, coordinated several service providers, and maintained high accuracy in NDIS documentation and reporting. For instance, I've adeptly used Microsoft Excel and Trello for tracking and management of service agreements. These experiences align well with the requirements mentioned for the Administrative Officer role.
+
+What interests me about Australian Catholic University is its dedication towards creating an inclusive environment that welcomes students and staff of all beliefs. The University's commitment to fostering a home-like academic and professional community aligns perfectly with my own professional values.
+
+I am particularly adept at stakeholder engagement, event coordination, and working closely with management. As demonstrated in my previous role as a Disability Support Worker at Sendayo Disability Support Services, I successfully liaised with the NDIS and support coordinators, enhancing health outcomes for participants. My strong communication, excellent organizational skills, and keen attention to detail will allow me to deliver on project and organisational objectives, working efficiently in a fast-paced environment.
+
+Thank you for considering my application. I am excited about the possibility of contributing to Australian Catholic University and look forward to the opportunity to further discuss how my background, skills, and experience can benefit your team.
+
+Please feel free to contact me at your earliest convenience to arrange a time to discuss how I can make a meaningful contribution to your organization.
+
+Sincerely,
+
+Ele
+INFO:app.main:File path: output.docx
+INFO:root:Resume file: temp_resume.docx
+INFO:root:Resume: Eleni Halkias
+
+ 
+
+ 
+
+ 
+
+ Melbourne VIC \u2666 0421 042 055 \u2666 ehalkias9@gmail.com  
+
+
+
+		 	   Professional Summary   	
+
+A seasoned professional with over 5 years of progressive experience in disability support work, financial services, and support coordination. 
+
+Proven skills in administration, relationship management, communication, project coordination, and proficient in handling diverse administrative roles and client relationships. 
+
+Demonstrated adaptability under high-pressure conditions with a proactive approach, and proficiency in autonomous, self-directed roles.
+
+			   Skills   	
+
+Interpersonal Skills
+
+Communication Skills
+
+Advocacy Skills
+
+Stakeholder Negotiation
+
+Person-Centred Focus
+
+Problem-Solving
+
+Organizational Skills
+
+Planning Skills
+
+Rapport Building
+
+Coordinating Services
+
+Conflict Resolution
+
+Attention to Detail
+
+Interpersonal Skills
+
+Communication Skills
+
+Advocacy Skills
+
+Stakeholder Negotiation
+
+Person-Centered Focus
+
+Problem-Solving
+
+Organizational Skills
+
+Planning Skills
+
+Rapport Building
+
+Coordinating Services
+
+Conflict Resolution
+
+Attention to Detail
+
+		 	   Work History   	
+
+Support Coordinator, 01/2023 - Current 
+
+Personalised Support Systems – Melbourne
+
+• Implemented and activated NDIS plans for 15+ participants, aiding them in understanding and applying their individual schemes
+
+• Coordinated 20+ service providers, ensuring tailored supports for NDIS participants and improving their care
+
+• Used Microsoft Excel to obtain competitive quotes for NDIS services, securing cost-effective solutions for participants and saving up to 15% on expenses.
+
+• Orchestrated 20+ service agreements using Trello for tracking and management, fostering a clear understanding of responsibilities for NDIS participants.
+
+• Assisted NDIS participants in achieving 90% of their stated goals in the first year, through comprehensive support service.
+
+• Displayed extensive knowledge of NDIS policies, procedures, and legislation, leading to 100% compliance rate.
+
+• Initiated collaborations with 10+ families, carers, and service providers via Zoom, facilitating a team-oriented approach to participant support.
+
+• Maintained high accuracy in NDIS documentation and reporting requirements using Astalty for record-keeping.
+
+• Successfully worked with 5+ participants with psychosocial disabilities, refining specialised support techniques and improving their quality of life
+
+Disability support worker, 03/2022 - 12/2022 
+
+Call-A-Nurse 
+
+• Delivered high-quality, personalized care to NDIS participants with diverse needs, with a specific focus on catheter care and diabetes management.
+
+• Conducted regular in-home visits, providing supportive services while maintaining detailed client records through Google Drive.
+
+• Demonstrated resilience under pressure to ensure excellent service and client satisfaction.
+
+• Handled administrative duties related to client file maintenance and paperwork
+
+Disability support worker, 06/2021 - 12/2022 
+
+Private 
+
+• Developed and implemented person-centred support plans for clients, assisting with daily activities and community access using tools like Microsoft Excel and Google Sheets for efficient tracking.
+
+• Built strong rapport and trust with clients, empowering them to live independently.
+
+• Maintained comprehensive client notes and records using Microsoft Word and Google Docs, tracking progress and managing caseloads.
+
+• Effectively managed multiple patients with diverse needs, ensuring optimal client care.
+
+Disability support worker, 06/2019 - 09/2022 
+
+Sendayo Disability Support Services 
+
+Provided support to over 40 diverse clients, gaining valuable experience in managing a range of psycho-social and physical disabilities.
+
+Effectively liaised with the NDIS and support coordinators, enhancing health outcomes for participants.
+
+Supported participants in achieving individual goals and independence through assistance with daily living activities, such as personal hygiene, manual handling, meal prepping, and community access.
+
+Assisted participants with activities of daily living such as, personal hygiene care, manual handling, meal prepping, and community access/socialising
+
+Maintains a high-level of proficiency in first responder skills such as First Aid and CPR to administer to individuals in immediate distress or danger
+
+Client Liaison, 01/2017 - 01/2022 
+
+Natcorp Financial Services 
+
+Built strong rapport with clients in the financial services sector, delivering excellent service and managing administrative duties.
+
+Handled client invoicing and liaison, implementing tracking systems to analyse customer feedback and improve satisfaction.
+
+Demonstrated strong IT skills, utilizing tools such as Microsoft Excel, Google Sheets, and Microsoft Word to enhance operational efficiency.
+
+		 	   Education   	
+
+Bachelor of Arts: 2023 
+
+Deakin University - Melbourne 
+
+		 	   Certifications   	
+
+Current CPR Current First Aid Current Victorian Drivers Licence
+INFO:app.main:Processing job URL: https://www.seek.com.au/job/68922342?type=standout#sol=3947ab745533e8751f51dfd6055c802d86c49572
+INFO:root:Job description: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Administrative Officer Job in Fitzroy, Melbourne VIC - SEEK
+
+Administrative OfficerSkip to contentJobsCoursesBusinesses for saleVolunteeringSEEKJob searchProfileCareer adviceCompany reviewsSign inEmployer siteMenuJob searchProfileCareer adviceCompany reviewsSign inAustraliaAustraliaHong KongIndonesiaMalaysiaNew ZealandPhilippinesSingaporeThailandEmployer siteAll SEEK productsJobsCoursesBusinesses for saleVolunteeringJob searchProfileCareer adviceCompany reviewsEmailFacebookTwitterLinkedInAdministrative OfficerAustralian Catholic University Limited3.7·67 reviewsFitzroy, Melbourne VICAdministrative Assistants (Administration & Office Support)Other (Education & Training)Full time$78,048 – $84,489 plus 17% superPosted 13d agoMore jobs from this companyApply\u2060SaveKey Administrative Support role in Learning and Leadership Enterprise (LLE)17% super, salary packaging, Staff Rewards Program and generous leave provisionsFixed term full time opportunity until 22 Dec 2023.About ACU:Australian Catholic University (ACU) is an inclusive community which welcomes students and staff of all beliefs. ACU has over 2,500 staff supporting more than 34,000 students across eight campuses - Ballarat, Brisbane, Canberra, Melbourne, North Sydney, Strathfield, Blacktown and Rome.ACU aspires to be a home for our staff, offer the care of a family and develop an academic and professional community. Whatever your faith or culture, and whether you are academic or professional staff, there are many opportunities both for learning and contributing at ACU.As valued members of our community, all staff members are expected to have an understanding of ACU's mission and values and to demonstrate an active contribution to them.About the role:As the Administrative Officer (Projects), you will be responsible for the effective and efficient day-to-day operations of a range of Learning and Leadership Enterprise (LLE) projects, providing support for our major microcredentials initiatives, commercial and government tenders, national and international outreach and engagement, and partner development.Working closely with the Partnerships Operations Manager, you will provide administrative support for the implementation of projects, delivery of projects and initiatives, and support the processes and frameworks required to deliver on project and organisational objectives. Excellent communication and organisation skills, a capacity to work in a fast-paced environment, and the ability to negotiate with a variety of stakeholders will be key to your success in this role. More specifically the role entails:Support the development and submission of tenders and proposals.Provide event coordination support for a range of Learning and Leadership Enterprise events and national and international outreach and learning programs.Stakeholder engagement with a variety of internal and external stakeholders.Support for strategic initiatives.Contact:General enquiries can be sent to [email protected]What we offer:The University pursues an excellence agenda and offers an environment where staff are welcomed and safe, and valued through development, participation and involvement.Total remuneration valued to $92,363 - $99,985 total rem (pro rata) pa, including salary component $78,048 - $84,489 (pro rata) pa (HEW 5), employer contribution to superannuation and annual leave loading.17% employer superannuation contributions to eligible continuing and fixed-term staff.Annual leave loading of an equivalent to 17.5% of four weeks' salary pro rata payable, dependent on your commencement date.As an ACU staff member, you will have access to generous benefits which include but not limited to: Staff Rewards; a variety of leave provisions and salary packaging. Find out more information about the benefits or working at ACU here.How to Apply:Step 1: Review the Position Description and become familiar with Our Mission and the Application processStep 2: Click the 'View Position Description and Apply' button, and populate your candidate application details, including your:resume (maximum 5 pages).responses to the Selection Criteria and Core Competencies in a cover letter (maximum 2 pages) or in the online Declaration and Criteria application page.brief online responses to any pre-screening employment questions.Candidates must hold Australian work rights to apply for this position. For permanent/ continuing roles, applicants must have permanent work rights. For further information visit Immigration and Citizenship(homeaffairs.gov.au)Acting in truth, ACU is dedicated to the dignity of the human person through equitable and respectful opportunities for everyone. ACU can offer support for candidates that may require adjustments through the recruitment process.Your Privacy of personal information is maintained in accordance with ACU policy. For more details visit: www.acu.edu.au/careersAdvertised: 26-JUL-2023Applications close: 09-AUG-2023 at 11:59pm AUS Eastern Standard TimeACU does not accept candidate applications submitted by external recruitment agencies through the ACU careers website.Report this job advertBe carefulDon’t provide your bank or credit card details when applying for jobs.Learn how to protect yourselfReport this job ad\u2060Your email addressReason for reporting jobPlease selectUnable to applyFraudulentDiscriminationMisleadingOtherAdditional commentsReport jobCancel
+
+
+
+Thinking about a career as an Administration Officer?
+
+
+Insights on salary & in-demand skills
+Reviews from people working in the industry
+
+Explore career
+
+Apply\u2060SaveJob seekersJob searchProfileRecommended jobsSaved searchesSaved jobsApplied jobsCareer adviceExplore careersExplore salariesCompany reviewsDownload appsAndroidiOSSEEK sitesEmployer siteSEEK NZCoursesBusinesses for saleVolunteeringEmployersRegister for freePost a job adProducts & pricesCustomer serviceHiring adviceMarket insightsRecruitment software partnersAbout SEEKAbout SEEKNewsroomInvestorsWork for SEEKInternational partnersBdjobs (Bangladesh)BrighterMonday (Kenya)Catho (Brazil)Jobberman (Nigeria)JobsDB (SE Asia)JobStreet (SE Asia)Jora (Australia)Jora (Worldwide)OCC Mundial (Mexico)Workana (Latin America)Zhaopin (China)Partner servicesCertsyGradConnectionJora LocalSidekickerGO1FutureLearnEmployment HeroJobAdderContactHelp centreContact usProduct & tech blogSEEK videosSocialFacebookInstagramTwitterYouTubeAustraliaAustraliaHong KongIndonesiaMalaysiaNew ZealandPhilippinesSingaporeThailandPrivacy policyTerms & conditionsProtect yourself online© SEEK. All rights reserved
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFO:app.main:Prompt tokens: 1827, Completion tokens: 272, Cost: 0.07113
+INFO:app.main:Key words: **Job Responsibilities:**
+
+1. Responsibility for effective and efficient operations of a range of Learning and Leadership Enterprise (LLE) projects
+2. Provision of support for major microcredentials initiatives, commercial and government tenders, national and international outreach and engagement, and partner development
+3. Provision of administrative support for project implementation and delivery
+4. Supporting the processes and frameworks required to deliver project and organisational objectives
+5. Support the development and submission of tenders and proposals
+6. Providing event coordination support for a variety of Learning and Leadership Enterprise events and national and international outreach and learning programs
+7. Stakeholder engagement with a variety of internal and external parties
+8. Support for strategic initiatives
+
+**Essential Skills:**
+
+1. Excellent communication skills
+2. Superior organisation skills
+3. Ability to work in a fast-paced environment
+4. Ability to negotiate with a variety of stakeholders
+
+**Keywords:**
+
+1. Administrative Officer
+2. Learning and Leadership Enterprise (LLE)
+3. Microcredentials initiatives
+4. Commercial and government tenders
+5. National and international outreach and engagement
+6. Partner development
+7. Project implementation and delivery
+8. Event coordination
+9. Stakeholder engagement
+10. Strategic initiatives
+11. Communication skills
+12. Organisation skills
+13. Fast-paced environment
+14. Negotiation skills
+INFO:app.main:Prompt tokens: 1358, Completion tokens: 142, Cost: 0.04926
+INFO:app.main:Filtered key words: **Job Responsibilities:**
+
+1. Provision of administrative support for project implementation and delivery
+2. Supporting the processes and frameworks required to deliver project and organisational objectives
+3. Stakeholder engagement with a variety of internal and external parties
+4. Support for strategic initiatives
+
+**Essential Skills:**
+
+1. Excellent communication skills
+2. Superior organisation skills
+3. Ability to work in a fast-paced environment
+4. Ability to negotiate with a variety of stakeholders
+
+**Keywords:**
+
+1. Administrative Officer
+3. Project implementation and delivery
+7. Stakeholder engagement
+8. Strategic initiatives
+11. Communication skills
+12. Organisation skills
+13. Fast-paced environment
+14. Negotiation skills
+INFO:app.main:Prompt tokens: 1222, Completion tokens: 580, Cost: 0.07146
+INFO:app.main:Relevant experience: # Eleni Halkias
+
+Melbourne VIC \u2666 0421 042 055 \u2666 ehalkias9@gmail.com
+
+## Professional Summary
+A seasoned professional with over 5 years of progressive experience in disability support work, financial services, and support coordination. Proven skills in administration, relationship management, communication, project coordination, and proficient in handling diverse administrative roles and client relationships. Demonstrated adaptability under high-pressure conditions with a proactive approach, and proficiency in autonomous, self-directed roles.
+
+## Skills
+- Communication Skills
+- Stakeholder Negotiation
+- Organizational Skills
+
+## Work History
+
+**Support Coordinator, 01/2023 - Current**
+Personalised Support Systems – Melbourne
+- Implemented and activated NDIS plans for 15+ participants, aiding them in understanding and applying their individual schemes
+- Coordinated 20+ service providers, ensuring tailored supports for NDIS participants and improving their care.
+- Orchestrated 20+ service agreements using Trello for tracking and management, fostering a clear understanding of responsibilities for NDIS participants.
+- Assisted NDIS participants in achieving 90% of their stated goals in the first year, through comprehensive support service.
+- Initiated collaborations with 10+ families, carers, and service providers via Zoom, facilitating a team-oriented approach to participant support.
+- Maintained high accuracy in NDIS documentation and reporting requirements using Astalty for record-keeping.
+
+**Disability support worker, 03/2022 - 12/2022**
+Call-A-Nurse
+- Delivered high-quality, personalized care to NDIS participants with diverse needs, with a specific focus on catheter care and diabetes management.
+- Conducted regular in-home visits, providing supportive services while maintaining detailed client records through Google Drive.
+- Handled administrative duties related to client file maintenance and paperwork.
+
+**Disability support worker, 06/2021 - 12/2022**
+Private
+- Developed and implemented person-centred support plans for clients, assisting with daily activities and community access using tools like Microsoft Excel and Google Sheets for efficient tracking.
+- Built strong rapport and trust with clients, empowering them to live independently.
+- Maintained comprehensive client notes and records using Microsoft Word and Google Docs, tracking progress and managing caseloads.
+
+**Client Liaison, 01/2017 - 01/2022**
+Natcorp Financial Services
+- Built strong rapport with clients in the financial services sector, delivering excellent service and managing administrative duties.
+- Handled client invoicing and liaison, implementing tracking systems to analyse customer feedback and improve satisfaction.
+- Demonstrated strong IT skills, utilizing tools such as Microsoft Excel, Google Sheets, and Microsoft Word to enhance operational efficiency.
+
+## Education
+
+Bachelor of Arts: 2023
+Deakin University - Melbourne 
+
+## Certifications
+
+Current CPR Current First Aid Current Victorian Drivers Licence
+
+INFO:app.main:Prompt tokens: 2449, Completion tokens: 401, Cost: 0.09752999999999999
+INFO:app.main:Cover letter: Dear Hiring Manager,
+
+I am writing to express my interest in the Administrative Officer position at Australian Catholic University. I am a seasoned professional with over 5 years of progressive experience in disability support work, financial services, and support coordination, with a talent for administration and superb skills in project coordination. Given my multi-faceted background, I am confident in my ability to bring value to your team.
+
+In my current role as Support Coordinator at Personalised Support Systems, I have been responsible for implementing and managing NDIS plans for more than 15 participants, coordinating over 20 service providers, and orchestrating numerous service agreements using Trello for efficient project management. This role has honed my skills in stakeholder negotiation, given me solid experience in project implementation and delivery, all while maintaining excellent communication standards to ensure client satisfaction. Notably, while managing client invoicing and liaison at Natcorp Financial Services, I marshaled tracking systems to enhance customer satisfaction, resulting in over $20,000 in billables within just four months.
+
+Australian Catholic University's inclusive community and commitment to the care of its staff attracted me to this opportunity. Your mission to provide an excellent learning and professional environment aligns with my dedication towards exceptional service and quality work.
+
+Apart from impeccable administrative skills, I bring to the table a proven record in strategic initiatives. My ability to work in a fast-paced environment, as demonstrated in my role with Personalised Support Systems, gives me great confidence in my aptitude to excel in the Administrative Officer role. My proficiency in building client rapport and trust, along with excellent organizational skills, have been pivotal in previous roles and will definitely be beneficial in this role too.
+
+Thank you for considering my application. I am enthusiastic about the possibility of contributing to Australian Catholic University and would welcome the opportunity to further discuss how my background, skills, and experience can benefit your team.
+
+Please feel free to contact me at your earliest convenience to arrange a time for us to talk.
+
+Sincerely,
+
+Eleni Halkias
+INFO:app.main:File path: output.docx

@@ -8,6 +8,7 @@ function App() {
   const [loadingSection1, setLoadingSection1] = useState(false);
   const [loadingSection2, setLoadingSection2] = useState(false);
   const [section1Done, setSection1Done] = useState(false);
+  const [downloadLink, setDownloadLink] = useState(null);
 
   const handleResumeUpload = (e) => {
     setResume(e.target.files[0]);
@@ -56,10 +57,7 @@ function App() {
       if (response.ok) {
         const blob = await response.blob();
         const url = window.URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "output.docx";
-        a.click();
+        setDownloadLink(url);
       } else {
         alert("Failed to generate DOCX file");
       }
@@ -80,9 +78,15 @@ function App() {
       alignItems: "center",
     },
     header: {
-      fontSize: "24px",
+      fontSize: "48px",
       fontWeight: "bold",
       margin: "20px",
+    },
+    subheader: {
+      // Add your subheader styles here
+      fontSize: "1rem",
+      fontWeight: "normal",
+      marginTop: "0.5rem",
     },
     input: {
       background: "#222",
@@ -109,7 +113,18 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <div style={styles.header}>Your App Name</div>
+      <div style={styles.header}>Cover Letter Generator</div>
+      <div style={styles.subheader}>
+        1. Upload your resume and paste the job link
+      </div>
+      <div style={styles.subheader}>
+        2. Enter your Name and any extra instructions, eg "Add ___ detail about
+        __" "Write in ___ tone" or "Use ____ keywords" ect
+      </div>
+      <div style={styles.subheader}>
+        3. Click generate and download your new resume. It may take up to 3
+        minutes for the magic to happen.
+      </div>
       <div style={styles.section}>
         <input
           type="file"
@@ -145,6 +160,15 @@ function App() {
         <button onClick={handleGenerateClick} style={styles.input}>
           {loadingSection2 ? "Loading..." : "Generate"}
         </button>
+        {downloadLink && (
+          <a
+            href={downloadLink}
+            download="output.docx"
+            style={{ color: "#fff" }}
+          >
+            Click here to download
+          </a>
+        )}
       </div>
       <img src="/logo.png" alt="Logo" style={styles.logo} />
     </div>

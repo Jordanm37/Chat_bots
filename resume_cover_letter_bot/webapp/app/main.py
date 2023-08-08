@@ -1,25 +1,31 @@
+# from .openai_config import *
+from dotenv import load_dotenv
+import openai
+import os 
+load_dotenv(".env")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = os.getenv('OPENAI_API_KEY')
+
+
+import logging
+logging.basicConfig(filename='example.log',level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+logging.info('Started')
+logging.info(f"OpenAI API key: {openai.api_key}")
+
 from fastapi import FastAPI, File, UploadFile
 from fastapi import Form
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-import logging
+
 import shutil
 from docx import Document
 from pydantic import BaseModel
-import os
 
-# from .openai_config import *
-from dotenv import load_dotenv
-import openai
-
-load_dotenv(".env")
-openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # from .helpers import process_resume_file, process_job_link
 # from .generator import generate_cover_letter
-
-logging.basicConfig(filename='example.log',level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
 # Helpers 
@@ -207,15 +213,15 @@ def write_coverletter(job_desc,key_words, experience, personal_dets, instruction
 def generate_cover_letter(personal_details, extra_instructions, job_descr, resume):
     try:
         key_words = extract_key_words_and_resp(job_descr)
-
+        logger.info(f"Key words: {key_words}")
         filtered_key_words = filter_key_words(key_words,resume)
-
+        logger.info(f"Filtered key words: {filtered_key_words}")
         relevant_exp = extract_resume_exp(filtered_key_words,resume)
-
+        logger.info(f"Relevant experience: {relevant_exp}")
         cover_letter = write_coverletter(job_descr, filtered_key_words,relevant_exp, personal_details, extra_instructions)
-
+        logger.info(f"Cover letter: {cover_letter}")
         file_path = create_docx(cover_letter)
-
+        logger.info(f"File path: {file_path}")
         return file_path
     except Exception as e:
         logger.error(f"Failed to generate cover letter: {e}")
@@ -251,10 +257,11 @@ async def upload_resume_and_job_url(resume_file: UploadFile = File(...), job_lin
         with open("temp_resume.docx", "wb") as buffer:
             shutil.copyfileobj(resume_file.file, buffer)
         resume_file = "temp_resume.docx"
-
+        logging.info(f"Resume file: {resume_file}")
         resume = process_resume_file(resume_file)        
+        logging.info(f"Resume: {resume}")
         job_descr = process_job_link(job_link)
-        
+        logging.info(f"Job description: {job_descr}")
         return {"status": "success"}
     except Exception as e:
         logger.error(f"Failed to upload resume and job URL: {e}")
@@ -262,6 +269,12 @@ async def upload_resume_and_job_url(resume_file: UploadFile = File(...), job_lin
 
 @app.post("/generate_docx/")
 async def generate_docx(request: GenerateDocxRequest):
+    if resume is None or job_descr is None:
+        return {"status": "failed", "message": "Resume and job URL not uploaded"}
+    if not request.personal_details:
+        return {"status": "failed", "message": "Personal details not provided"}
+    if not request.extra_instructions:
+        request.extra_instructions = ""
     file_path = generate_cover_letter(request.personal_details, request.extra_instructions, job_descr, resume)
     return FileResponse(file_path)
 
