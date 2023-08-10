@@ -39,8 +39,8 @@ def process_job_link(job_url):
     logger.info(f"Processing job URL: {job_url}")
 
     # Basic validation to check if it's a string and starts with "http"
-    # if not isinstance(job_url, str) or not job_url.startswith("http"):
-    if not isinstance(job_url, str):
+    if not isinstance(job_url, str) or not job_url.startswith("http"):
+    # if not isinstance(job_url, str):
         logging.error(f"Invalid job URL: {job_url}")
         return None
 

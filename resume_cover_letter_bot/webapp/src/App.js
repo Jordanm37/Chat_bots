@@ -41,6 +41,12 @@ function App() {
   };
 
   const handleGenerateClick = async () => {
+    // Check if the resume and job link are provided
+    if (!resume || !jobLink) {
+      alert("Please make sure to upload your resume and enter the job link.");
+      return; // Exit the function if the validation fails
+    }
+
     setLoadingSection2(true);
     const data = {
       personal_details: personalDetails,
@@ -59,7 +65,9 @@ function App() {
         const url = window.URL.createObjectURL(blob);
         setDownloadLink(url);
       } else {
-        alert("Failed to generate DOCX file");
+        // If the status is not OK, read the JSON response to get the error message
+        const json = await response.json();
+        alert("Failed to generate DOCX file: " + json.message);
       }
     } catch (error) {
       alert("An error occurred: " + error.message);
@@ -76,6 +84,7 @@ function App() {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
+      padding: "20px",
     },
     header: {
       fontSize: "48px",
@@ -83,19 +92,36 @@ function App() {
       margin: "20px",
     },
     subheader: {
-      // Add your subheader styles here
-      fontSize: "1rem",
+      fontSize: "18px",
       fontWeight: "normal",
-      marginTop: "0.5rem",
+      marginTop: "10px",
+      textAlign: "center",
+      maxWidth: "600px",
     },
     input: {
       background: "#222",
       border: "2px solid #555",
       borderRadius: "5px",
       color: "#fff",
-      width: "300px",
+      width: "100%",
+      maxWidth: "300px",
       padding: "10px",
       margin: "10px",
+    },
+    button: {
+      background: "#222",
+      border: "2px solid #555",
+      borderRadius: "5px",
+      color: "#fff",
+      width: "100%",
+      maxWidth: "300px",
+      padding: "10px",
+      margin: "10px",
+      cursor: "pointer",
+      transition: "0.3s",
+      "&:hover": {
+        background: "#555",
+      },
     },
     logo: {
       position: "absolute",
@@ -108,6 +134,8 @@ function App() {
       flexDirection: "column",
       alignItems: "center",
       marginBottom: "20px",
+      width: "100%",
+      maxWidth: "600px",
     },
   };
 
@@ -140,7 +168,7 @@ function App() {
           onChange={(e) => setJobLink(e.target.value)}
           style={styles.input}
         />
-        <button onClick={handleSetClick} style={styles.input}>
+        <button onClick={handleSetClick} style={styles.button}>
           {loadingSection1 ? "Loading..." : section1Done ? "Done" : "Set"}
         </button>
       </div>
